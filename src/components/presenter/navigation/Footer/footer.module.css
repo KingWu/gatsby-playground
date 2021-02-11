@@ -1,0 +1,9 @@
+.footer {
+  @apply flex w-full justify-center items-center;
+  @apply bg-primary;
+  height: 50px;
+}
+
+.content {
+  @apply text-body2 text-on-primary;
+}

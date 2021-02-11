@@ -1,0 +1,15 @@
+{
+  "seo": {
+    "appName": "搵著數",
+    "title": "更早一步知道著數消息",
+    "description": "著數網",
+    "author": "搵著數"
+  },
+  "testTitle": "測試",
+  "change-locale": "轉語言",
+  "error-with-status": "A {{statusCode}} error occurred on server",
+  "error-without-status": "An error occurred on the server",
+  "footer": {
+    "license": "版權所有©2020 Play Lab。版權所有"
+  }
+}

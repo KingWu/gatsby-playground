@@ -1,0 +1,40 @@
+/* Define Theme Variables */
+:root {
+  --primary-color: 255,152,0; /* #ff9800*/
+  --primary-dark-color: 178,106,0; /* #b26a00 */
+  --primary-light-color: 255,172,51; /* #ffac33 */
+  --secondary-color: 255,196,0; /* #ffc400 */
+  --secondary-dark-color: 178,137,0; /* #b28900 */
+  --secondary-light-color: 255,207,51; /* #ffcf33 */
+  --background-color: 255,255,255; /* #FFFFFF */
+  --surface-color: 255,255,255; /* #FFFFFF */
+  --error-color: 176,0,32; /* #B00020 */
+
+  /* Typography and iconography colors */
+  --on-primary-color: 0,0,32; /* #000020; */
+  --on-secondary-color: 0,0,32; /* #000020; */
+  --on-background-color: 0,0,32; /* #000020; */
+  --on-surface-color: 0,0,32; /* #000020; */
+  --on-error-color: 255,255,255; /* #FFFFFF; */
+
+  --text-opacity: 1;
+}
+
+.theme-dark {
+  --primary-color: 255,152,0;
+  --primary-dark-color: 178,106,0;
+  --primary-light-color: 255,172,51;
+  --secondary-color: 255,196,0;
+  --secondary-dark-color: 178,137,0;
+  --secondary-light-color: 255,207,51;
+  --background-color: 18,18,18; /* #121212 */
+  --surface-color: 18,18,18;
+  --error-color: 207,102,121; /* #CF6679 */
+
+  /* Typography and iconography colors */
+  --on-primary-color: 255,255,255; /* #000020; */
+  --on-secondary-color: 0,0,32; /* #000020; */
+  --on-background-color: 255,255,255; /* #FFFFFF */
+  --on-surface-color:  255,255,255; /* #FFFFFF; */
+  --on-error-color: 0,0,32; /* #000020; */
+}

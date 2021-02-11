@@ -1,0 +1,34 @@
+@import './variables.css';
+
+/* Tailwind Css */
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  @apply bg-background;
+}
+.page {
+  @apply w-full mx-auto;
+}
+
+.button-icon {
+  &:focus {
+    @apply outline-none;
+  }
+}
+
+button:focus {outline:0;}
+
+.svg-fill {
+  & rect,
+  & circle,
+  & ellipse,
+  & path {
+    @apply fill-current;
+  }
+}

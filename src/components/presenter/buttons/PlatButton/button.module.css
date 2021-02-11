@@ -1,0 +1,13 @@
+.plain-button {
+  @apply text-primary;
+}
+
+:global(.theme-dark) {
+  & .plain-button {
+    @apply text-secondary;
+  }
+
+  & .plain-button:hover {
+    background-color: rgba(var(--secondary-color), 0.4);
+  }
+}

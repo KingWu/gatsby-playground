@@ -1,0 +1,69 @@
+.header {
+  @apply fixed top-0 z-30 w-full;
+  @apply bg-background;
+}
+.header-container {
+  @apply relative;
+}
+
+.header-bar {
+  @apply min-w-0;
+  @apply flex flex-row items-center;
+  @apply h-header px-4;
+  & button:nth-of-type(-n+2) {
+    @apply mr-4;
+  }
+  & button {
+    @apply flex-shrink-0;
+  }
+}
+
+.header--title {
+  @apply flex-grow;
+  @apply text-h3 text-primary text-opacity-normal;
+  font-weight: 700;
+}
+
+.lamp--container {
+  @apply absolute top-0 left-0;
+  @apply flex justify-center items-end;
+  left: 50%;
+}
+.lamp {
+  line-height: 0;
+}
+.lamp--icon {
+  @apply relative z-10;
+  width: 40px;
+  height: 40px;
+  @apply bg-background;
+}
+
+@keyframes moving {
+  0%   {transform: translate(-50%, -30%);}
+  50%  {transform: translate(-50%, -50%);}
+  100%  {transform: translate(-50%, -30%);}
+}
+
+.lamp--tail {
+  @apply absolute mx-auto;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: 1;
+  width: 4px;
+  height: 50px;
+  @apply bg-primary;
+  animation-name: moving;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+:global(.theme-dark) {
+  & .header--title {
+    color: white;
+  }
+  & .lamp--icon  {
+    color: white;
+  }
+}
